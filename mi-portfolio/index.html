@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Gabriel | Web Developer</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+     <nav>
+         <h1>Gabriel Sanchez</h1>
+      <ul class="navegacion">
+        <li><a href="#sobremi" class="nav-link">Acerca de mi</a></li>
+        <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+        <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+        <li><a href="#contacto" class="nav-link">Contacto</a></li>
+      </ul>
+        <button class="menu-hamburguesa" id="menu-hamburguesa">
+         <io-icon class="barras" name="menu-outline"></io-icon>
+        </button>
+     </nav>
+
+    <!-- Seccion Hero -->
+     <section class="hero" id="about">
+      <img src="assets/images/programador-diseñando.jpg" alt="programador" loading="lazy" class="hero-img">
+
+      <div class="bio">
+        <h2 class="bio-titulo">Sobre Mi</h2>
+        <p class="bio-texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, rem reiciendis magnam odio natus soluta consequuntur eum, nostrum perspiciatis, ut harum. Sequi nesciunt veritatis exercitationem totam nihil placeat accusamus inventore.</p>
+      </div>
+
+     </section>
+
+    <!-- Acerca de mi -->
+
+    <!-- Seccion de Habilidades -->
+     <section class="habilidades" id="habilidades">
+      <h2 class="header-habilidades">Mis Habilidades</h2>
+
+      <div class="contenedor-habilidades">
+
+        <div class="firt-set">
+          <img src="assets/icons/icons8-html-5.svg" alt="" loading="lazy" class="icon icon-card">
+          <img src="assets/icons/icons8-css3.svg" alt="" loading="lazy" class="icon icon-card">
+          <img src="assets/icons/icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card">
+        </div>
+
+        <div class="second-set">
+          <img src="assets/icons/icons8-bootstrap.svg" alt="" loading="lazy" class="icon icon-card">
+          <img src="assets/icons/icons8-git.svg" alt="" loading="lazy" class="icon icon-card">
+          <img src="assets/icons/icons8-github.svg" alt="" loading="lazy" class="icon icon-card">
+        </div>
+
+        <div class="second-set">
+          <img src="assets/icons/icons8-chef-48.png" alt="" loading="lazy" class="icon icon-card">
+          <img src="assets/icons/icons8-plancha-48.png" alt="" loading="lazy" class="icon icon-card">
+          <img src="assets/icons/icons8-broom-48.png" alt="" loading="lazy" class="icon icon-card">
+        </div>
+
+      </div>
+     </section>
+
+
+    <!-- Seccion de Proyectos -->
+
+    <section class="proyectos" id="proyectos">
+      <h2 class="titulo-de-proyectos">Mis Proyectos</h2>
+      <div class="contenedor-de-proyectos">
+
+        <div class="tarjeta-de-proyectos">
+          <img src="assets/images/Web-en-construccio.png" alt="web-en-construccion" loading="lazy" class="foto-de-proyecto">
+          <h3 class="titulo-de-proyectos">Web en construccion</h3>
+          <p class="detalles-de-proyectos">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum soluta omnis et repellendus magnam sapiente, dolores placeat nam, commodi eum, sequi inventore blanditiis doloribus earum? Dolores quae quis a nobis.</p>
+            <a href="#" target="_blank" class="enlace-de-proyecto">Click aqui</a>
+           
+        </div>
+
+        <div class="tarjeta-de-proyectos">
+          <img src="assets/images/obras.gif" alt="obras" loading="lazy" class="foto-de-proyecto">
+          <h3 class="titulo-de-proyectos">Estamos trabajando</h3>
+          <p class="detalles-de-proyectos">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum soluta omnis et repellendus magnam sapiente, dolores
+            placeat nam, commodi eum, sequi inventore blanditiis doloribus earum? Dolores quae quis a nobis.</p>         
+          <a href="#" target="_blank" class="enlace-de-proyecto">Click aqui</a>
+        </div>
+
+        <div class="tarjeta-de-proyectos">
+          <img src="assets/images/noconfies.jpg" alt="no-confies" loading="lazy" class="foto-de-proyecto">       
+          <h3 class="titulo-de-proyectos">Pronto disponible</h3>
+          <p class="detalles-de-proyectos">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum soluta omnis et repellendus magnam sapiente, dolores
+            placeat nam, commodi eum, sequi inventore blanditiis doloribus earum? Dolores quae quis a nobis.</p>
+            <a href="#" target="_blank" class="enlace-de-proyecto">Click aqui</a>         
+        </div>
+      </div>
+    </section>
+
+    <!-- Seccion de contacto -->
+
+<section class="contacto" id="contacto">
+         <h2>Contactame</h2>
+  <div class="contenedor-formulario-contacto">
+
+    <div class="formulario-contacto">
+      <form action="https://formspree.io/f/xyzyewgo" method="POST">
+
+        <div class="control-formulario">
+          <label for="name">Nombre</label>
+          <input type="text" id="name" name="sender-name" placeholder="  Escribe tu nombre" class="input-field"
+            required />
+        </div>
+
+        <div class="control-formulario">
+          <label for="email">Correo Electrónico</label>
+          <input type="email" id="email" name="sender-email" placeholder="  Ingreso tu correo electrónico"
+            class="input-field" required />
+        </div>
+
+        <div class="control-formulario">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" cols="60" rows="10" placeholder=" Escribe tu mensaje" name="mensaje" class="input-field"
+            required></textarea>
+        </div>
+
+        <input type="submit" value="Enviar" id="submit-btn" class="submit-btn" />
+      </form>
+    </div>
+  </div>
+</section>
+
+    <!-- Seccion social iconos-->
+
+    <!-- seccion Footer-->
+
+    <footer>
+      <p class="copy">&copy; Copyright 2024 Gabriel Sanchez | Derechos Reservados </p>
+    </footer>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
