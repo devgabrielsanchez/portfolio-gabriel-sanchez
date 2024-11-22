@@ -251,9 +251,76 @@ nav ul li {
   cursor: pointer;
 }
 
+.submit-btn:hover {
+  transform: scale(0.97) ;
+  color: black;
+}
+
 footer {
   background-color: rgb(189, 230, 241);
   padding: 1.5rem;
   text-align: center;
-  margin: 32px 0 0;
+  margin: 30px 0 0;
 }
+
+.desplazarse-hacia-arriba {
+  position: fixed;
+  right: 0.5%;
+  bottom: 3%;
+  cursor: pointer;
+}
+
+.flecha-arriba {
+  width: 3rem;
+  height: 3rem;
+}
+
+nav {
+  padding: 1.5rem 1rem;
+}
+ 
+nav ul {
+  position: fixed;
+  background-color: var(--bg-color);
+  flex-direction: column;
+  top: 88px;
+  left: 10%;
+  width: 80%;
+  text-align: center;
+  transform: translateX(120%);
+  transition: transform 0.5s ease-in;
+}
+
+nav ul li {
+  margin: 8px;
+}
+
+.menu-hamburguesa {
+  display: block;
+  color: var(--primary-color);
+}
+
+nav ul.show {
+  transform: translateX(0);
+}
+
+.img-menu-hamburguesa {
+  color: var(--primary-color);
+}
+
+.hero {
+  margin-top: -4rem;
+  flex-direction: column;
+  gap: 0;
+}
+
+.hero img {
+  height: 37.5rem;
+  width: 30rem;
+}
+
+.bio {
+  margin-top: 6rem;
+  width: 20.5rem;
+}
+
